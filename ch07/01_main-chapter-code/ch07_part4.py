@@ -128,7 +128,7 @@ def custom_collate_fn(
 
 # データ準備
 file_path = "instruction-data.json"
-url = "https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/instruction-data.json"
+url = "https://raw.githubusercontent.com/tatsu-lab/stanford_alpaca/main/alpaca_data.json"
 
 data = download_and_load_file(file_path, url)
 
