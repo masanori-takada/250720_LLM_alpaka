@@ -43,7 +43,7 @@ ch07/01_main-chapter-code/gpt2-medium355M-sft-mask-instructions.pth
 ch07/01_main-chapter-code/gpt2-medium355M-sft-phi3-prompt.pth
 ch07/01_main-chapter-code/gpt2-medium355M-sft-alpaca52k.pth
 ch07/01_main-chapter-code/gpt2-medium355M-sft-lora.pth
-ch07/01_main-chapter-code/gpt2-medium355M-sft.pth
+# ch07/01_main-chapter-code/gpt2-medium355M-sft.pth  # Temporarily allow for Git LFS
 ch07/01_main-chapter-code/gpt2-medium355M-sft-standalone.pth
 ch07/01_main-chapter-code/Smalltestmodel-sft-standalone.pth
 ch07/01_main-chapter-code/gpt2/
