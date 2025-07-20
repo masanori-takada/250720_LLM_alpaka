@@ -222,7 +222,13 @@ def train_model_with_checkpoints(model, train_loader, val_loader, optimizer, dev
         
         for batch_idx, (input_batch, target_batch) in enumerate(train_loader):
             optimizer.zero_grad()
-            loss = calc_loss_loader(iter([input_batch, target_batch]), model, device, num_batches=1)
+            
+            # 直接損失を計算
+            logits = model(input_batch)
+            loss = torch.nn.functional.cross_entropy(
+                logits.flatten(0, 1), target_batch.flatten(), ignore_index=-100
+            )
+            
             loss.backward()
             optimizer.step()
             
