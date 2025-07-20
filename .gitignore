@@ -16,7 +16,7 @@ ch05/01_main-chapter-code/the-verdict.txt
 ch06/01_main-chapter-code/loss-plot.pdf
 ch06/01_main-chapter-code/accuracy-plot.pdf
 
-ch07/01_main-chapter-code/loss-plot.pdf
+# ch07/01_main-chapter-code/loss-plot.pdf  # Allow for this specific finetuning result
 ch07/01_main-chapter-code/loss-plot-standalone.pdf
 ch07/01_main-chapter-code/loss-plot-baseline.pdf
 ch07/01_main-chapter-code/loss-plot-mask-instructions.pdf
